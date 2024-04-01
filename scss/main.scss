@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Avenir", sans-serif;
+}
+
+body{
+    background-color: #000000;
+    padding: 0 30px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+.films{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 29px;
+        margin-bottom: 25px;
+        li{
+            font-size: 20px;
+            color: #f9f9f9;
+        }
+    }
+    .film-cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        .film-card{
+            img{
+                width: 410px;
+                height: 245px;
+            }
+        }
+    }
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 50px;
+    h1{
+        font-weight: 800;
+        font-size: 43px;
+        line-height: 126%;
+        color: #f9f9f9;
+    }
+    p{
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: #c0c0c0;
+    }
+    .tabs{
+        border-radius: 21px;
+        padding: 5px 20px 5px 5px;
+        width: 235px;
+        height: 48px;
+        background: #2b2d37;
+        line-height: 187%;
+        text-align: center;
+        color: #f9f9f9;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        .tab-left{
+            border-radius: 19px;
+            padding: 4px  0;
+            width: 135px;
+            height: 38px;
+            background: #0063e5;
+        }
+    }
+    .buy-cards{
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card{
+            border: 1px solid #c0c0c0;
+            width: 380px;
+            height: 523px;
+            padding: 35px 45px;
+            position: relative;
+            h4{
+                font-weight: 800;
+                font-size: 27px;
+                line-height: 141%;
+                color: #f9f9f9;
+                margin-top: 24px;
+                margin-bottom: 5px;
+            } 
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 162%;
+                color: #f9f9f9;
+                margin-bottom: 13px;
+            }
+            ul{
+                li{
+                    display: flex;
+                    gap:10px;
+                    p{
+                        line-height: 162%;
+                        letter-spacing: 0.01em;
+                        color: #c0c0c0;
+                    }
+                }
+            }
+            .btn-div{
+                justify-items: end;
+                align-self: flex-end;
+                position: absolute;
+                bottom: 35px;
+                .price{
+                    font-weight: 800;
+                    font-size: 28px;
+                    line-height: 136%;
+                    color: #f9f9f9;
+                    margin-top: 20px;
+                    margin-bottom: 13px;
+                    span{
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #c0c0c0;
+    
+                    }
+               } 
+               button{
+                    border-radius: 4px;
+                    width: 290px;
+                    height: 60px;
+                    background: #0063e5;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 100%;
+                    letter-spacing: 0.06em;
+                    color: #f9f9f9;
+                    border: 0;
+                    cursor: pointer;
+    
+               }
+            }
+           
+        }
+    }
+    
+}
+
+.device{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h5{
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 132%;
+        color: #f9f9f9;
+        text-align: center;
+    }
+    .devices{
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        justify-content: center;
+        .device-card{
+            width: 301px;
+            height: max-content;
+            ul{
+                font-weight: 800;
+                font-size: 26px;
+                line-height: 146%;
+                text-align: center;
+                color: #f9f9f9;
+                li{
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 156%;
+                    letter-spacing: 0.01em;
+                    text-align: center;
+                    color: #c0c0c0;
+                }
+            }
+        }
+    }
+}
+
+

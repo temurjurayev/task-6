@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Avenir", sans-serif;
+}
+
+body {
+  background-color: #000000;
+  padding: 0 30px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+.films {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+.films ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 29px;
+  margin-bottom: 25px;
+}
+.films ul li {
+  font-size: 20px;
+  color: #f9f9f9;
+}
+.films .film-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 25px;
+}
+.films .film-cards .film-card img {
+  width: 410px;
+  height: 245px;
+}
+
+.plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+.plan h1 {
+  font-weight: 800;
+  font-size: 43px;
+  line-height: 126%;
+  color: #f9f9f9;
+}
+.plan p {
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #c0c0c0;
+}
+.plan .tabs {
+  border-radius: 21px;
+  padding: 5px 20px 5px 5px;
+  width: 235px;
+  height: 48px;
+  background: #2b2d37;
+  line-height: 187%;
+  text-align: center;
+  color: #f9f9f9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+.plan .tabs .tab-left {
+  border-radius: 19px;
+  padding: 4px 0;
+  width: 135px;
+  height: 38px;
+  background: #0063e5;
+}
+.plan .buy-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.plan .buy-cards .card {
+  border: 1px solid #c0c0c0;
+  width: 380px;
+  height: 523px;
+  padding: 35px 45px;
+  position: relative;
+}
+.plan .buy-cards .card h4 {
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 141%;
+  color: #f9f9f9;
+  margin-top: 24px;
+  margin-bottom: 5px;
+}
+.plan .buy-cards .card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: #f9f9f9;
+  margin-bottom: 13px;
+}
+.plan .buy-cards .card ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.plan .buy-cards .card ul li p {
+  line-height: 162%;
+  letter-spacing: 0.01em;
+  color: #c0c0c0;
+}
+.plan .buy-cards .card .btn-div {
+  justify-items: end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  position: absolute;
+  bottom: 35px;
+}
+.plan .buy-cards .card .btn-div .price {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 136%;
+  color: #f9f9f9;
+  margin-top: 20px;
+  margin-bottom: 13px;
+}
+.plan .buy-cards .card .btn-div .price span {
+  font-weight: 400;
+  font-size: 16px;
+  color: #c0c0c0;
+}
+.plan .buy-cards .card .btn-div button {
+  border-radius: 4px;
+  width: 290px;
+  height: 60px;
+  background: #0063e5;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.06em;
+  color: #f9f9f9;
+  border: 0;
+  cursor: pointer;
+}
+
+.device {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.device h5 {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 132%;
+  color: #f9f9f9;
+  text-align: center;
+}
+.device .devices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.device .devices .device-card {
+  width: 301px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+.device .devices .device-card ul {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 146%;
+  text-align: center;
+  color: #f9f9f9;
+}
+.device .devices .device-card ul li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #c0c0c0;
+}/*# sourceMappingURL=main.css.map */
